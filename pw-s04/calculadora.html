@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="calculadora.js"></script>
+  <title>Calculadora Web</title>
+</head>
+<body>
+    <div class="container m-4 p-4 border">
+
+      <div class="row" id="divTitle">
+        <h1>Calculadora</h1>
+      </div>
+
+      <div class="row mt-3">
+
+        <div class="form-group col">
+         <label for="txtValue1">Valor 1</label>
+         <input type="text" id="txtValue1" class="form-control"> 
+        </div>
+
+        <div class="form-group col">
+          <label for="txtValue2">Valor 2</label>
+          <input type="text" id="txtValue2" class="form-control"> 
+        </div>
+
+        <div class="form-group">
+          <button class="btn btn-primary mt-4" id="btnMultply" onclick="getProduct()">Calcular</button>
+        </div>
+
+        <div class="form-group mt-3">
+          <h3>Resultado: <label id="lblResult"></label></h3>
+        </div>
+        
+      </div>
+    </div>
+</body>
+</html>

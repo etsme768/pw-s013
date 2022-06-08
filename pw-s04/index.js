@@ -13,7 +13,7 @@ function greet(){
 }
 
 function showResult(result){
-  //Obtenemos una referencia al elemento HTML ocn ese ID
+  //Obtenemos una referencia al elemento HTML con ese ID
   //Podemos modificar sus atributos 
   document.getElementById("txtResult").value = result;
 }

@@ -8,6 +8,14 @@
 
 window.onload = _ =>{
   document.getElementById("btnTest").onclick = _ =>{
-    showResult("Hola Ulima");
+    showResult(getDataPage());
   }
+}
+
+const getDataPage = _ =>{
+  let data = "";
+  data = "Titulo: " + document.title + "\n";
+  data += "URL: " + document.URL + "\n";
+  data += "Referrer: " + document.referrer;
+  return data;
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link href="pp.css" rel="stylesheet">
+  <script src="pp.js"></script>
+  <title>Calculadora propia</title>
+</head>
+<body>
+  <div class="container border">
+    <div class="title">
+      <h1>Calculadora</h1>
+    </div>
+
+    <div class="row">
+      <div class="form-group col">
+        <label for="value1">Primer Valor</label>
+        <input type="text" id="value1" class="form-control">
+      </div>
+      <div class="form-group col">
+        <label for="value2">Segundo Valor</label>
+        <input type="text" id="value2" class="form-control">
+      </div>
+    </div>
+
+    <div class="row mt-3 m-3">
+      <div class="col">
+        <button type="button" class="btn btn-primary" id="btnSuma">+</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-danger" id="btnResta">-</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-warning" id="btnProducto">x</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary" id="btnDiv">/</button>
+      </div>
+    </div>
+
+    <div class="row mt-3 p-4">
+      <div class="form-group col">
+        Resultado: <label id="lblResult"></label>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
